@@ -3,6 +3,11 @@ button {
   color: #466995;
   border-radius: 10px;
   box-shadow: 0px 4px 5px #000;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px;
+  background-color: #C0D6DF;
 }
 
 button:hover {
