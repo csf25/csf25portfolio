@@ -1,3 +1,10 @@
+body {
+  background-color: lightblue;
+}  
+
+
+
+
 button {
   display: inline-block;
   border-radius: 4px;
