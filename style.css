@@ -1,25 +1,41 @@
 button {
-  border: 1px solid;
-  color: #466995;
-  border-radius: 10px;
-  box-shadow: 0px 4px 5px #000;
-  color: #ffffff;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  box-shadow: 0px 0px;
-  background-color: #C0D6DF;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
 button:hover {
-  cursor: pointer;
+  padding-right: 25px;
 }
 
-button:active {
-  color: #ffffff;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  box-shadow: 0px 0px;
-  background-color: #C0D6DF;
+button:hover, :after {
+  opacity: 1;
+  right: 0;
 }
 
 p {
