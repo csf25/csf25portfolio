@@ -1,36 +1,21 @@
+:root {
+    --clr: #BB86FC;
+    --clr2: #03DAC6;
+    --bg: #121212;
+}
+
 body {
-  background-color: lightblue;
-}  
-
-
-
+    background-color: var(--bg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: royalblue;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  opacity: 1;
-  right: 0;
-}
-
-p {
-  color: black;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding: 0.5em 1em;
 }
