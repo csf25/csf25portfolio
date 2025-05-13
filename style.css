@@ -35,9 +35,3 @@ button:hover {
     outline-offset: 0;
     outline-color: var(--clr2);
 }
-button:hover {
-    color: var(--clr2);
-    border-color: transparent;
-    outline-offset: 0;
-    outline-color: var(--clr2);
-}
